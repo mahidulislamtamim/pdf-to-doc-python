@@ -11,8 +11,8 @@ if not os.path.exists(pdf_file):
     # print file not found message
     print(f"File not found: {pdf_file}")
 elif os.path.exists(output_file):
-    # print file exist message
-    print(f"File already exist: {output_file}")
+    # print file exists message
+    print(f"File already exists: {output_file}")
 else:
     # Convert file
     converter = Converter(pdf_file=pdf_file)
